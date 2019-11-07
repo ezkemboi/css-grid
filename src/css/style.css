@@ -1,3 +1,40 @@
-.Main {
-    min-height: 100vh;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    color: #fff;
+    padding: 15px;
+}
+
+#logo {
+    padding: 15px;
+    margin-left: 15px;
+    background-color: #F3F1C7;
+    color: #298383;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+} 
+
+header {
+    background-color: #41c7c7;
+    display: grid;
+    grid-template-columns: fit-content(20%) auto;
 }
