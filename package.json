@@ -1,0 +1,28 @@
+{
+  "name": "css-grid",
+  "version": "1.0.0",
+  "description": "Css grid practice",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp start",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezkemboi/css-grid.git"
+  },
+  "keywords": [
+    "css-grid",
+    "css"
+  ],
+  "author": "Ezrqn Kemboi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ezkemboi/css-grid/issues"
+  },
+  "homepage": "https://github.com/ezkemboi/css-grid#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2"
+  }
+}
