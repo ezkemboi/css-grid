@@ -2,27 +2,24 @@
 
 body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    grid-template-rows: 51px 90%;
 }
-
 a {
     text-decoration: none;
 }
-
 ul {
     list-style-type: none;
     float: right;
 }
-
 ul li {
     display: inline;
 }
-
 ul li a {
     color: #fff;
     padding: 15px;
 }
-
 #logo {
     padding: 15px;
     margin-left: 15px;
@@ -32,9 +29,32 @@ ul li a {
     text-align: center;
     display: inline-block;
 } 
-
 header {
     background-color: #41c7c7;
     display: grid;
-    grid-template-columns: fit-content(20%) auto;
+    grid-template-columns: [logo-start] fit-content(20%) [nav-start] auto [nav-end];
 }
+section#hero {
+    background-color: #36ADAD;
+    padding: 2em;
+    border-top: 5px solid #2EA0A0;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+#content h1 {
+    text-transform: uppercase;
+    color: #FFFBC5;
+}
+#content p {
+    color: #FFF;
+}
+img {
+    max-width: 100%;
+    background-size: cover;
+    margin: 0 auto;
+}
+#css-grid-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+} 
