@@ -7,6 +7,9 @@ This is practice of css grid. Learning and making a project using css grid. The 
 
 ![css grid before responsive](docs/beforeresponsive.png?raw=true "This is css grid screenshoot before being responsive")
 
+### Table View (Responsive)
+![css grid tablet view responsive](docs/tabletview.png?raw=true "This is css grid screenshoot for tablet view")
+
 # Author
 
 [Ezrqn Kemboi](https://www.ezrqnkemboi.dev/)
