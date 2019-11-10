@@ -10,6 +10,10 @@ This is practice of css grid. Learning and making a project using css grid. The 
 ### Table View (Responsive)
 ![css grid tablet view responsive](docs/tabletview.png?raw=true "This is css grid screenshoot for tablet view")
 
+### Mobile Phone View (Responsive)
+![css grid smart phone view responsive](docs/mobile1.png?raw=true "This is css grid screenshoot for smath phone view")
+![css grid smart phone view responsive](docs/mobile2.png?raw=true "This is css grid screenshoot for smath phone view")
+
 # Author
 
 [Ezrqn Kemboi](https://www.ezrqnkemboi.dev/)
