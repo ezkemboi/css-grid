@@ -81,3 +81,23 @@ footer {
     grid-area: footer;
     background-color: lightgray;
 }
+#features {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10px 30px;
+}
+#features i {
+    font-size: 2em;
+}
+ul#features {
+    margin: 0;
+    padding: 0;
+}
+ul#features li {
+    background-color: lightgray;
+    padding: 1em;
+}
+ul#features li p {
+    color: #4c4c4c;
+}
